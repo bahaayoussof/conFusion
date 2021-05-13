@@ -1,43 +1,44 @@
 body {
-  padding: 50px 0 0 0;
-  z-index: 0;
+    padding: 50px 0 0 0;
+    z-index: 0;
 }
 
 /* Navbar */
 .navbar-dark {
-  background-color: #c0392b;
+    background-color: #363636;
 }
 
 /* Header */
 .row-header {
-  margin: 0 auto;
-  padding: 0 auto;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .jumbotron {
-  padding: 70px 30px 70px 30px;
-  margin: 0 auto;
-  background: #d98880;
-  color: floralwhite;
+    padding: 70px 30px 70px 30px;
+    margin: 0 auto;
+    background: #606060;
+    color: floralwhite;
 }
 
 /* Content */
 .row-content {
-  margin: 0 auto;
-  padding: 50px 0 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 400px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 400px;
 }
 
 /* Footer */
 .footer {
-  background-color: #e6b0aa;
-  margin: 0 auto;
-  padding: 20px 0 20px 0;
+    background-color: #9b9b9b;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
 }
 
 .address {
-  font-size: 80%;
-  margin: 0;
-  color: #0f0f0f;
+    font-size: 80%;
+    margin: 0;
+    color: #0f0f0f;
 }
+
