@@ -37,6 +37,13 @@ body {
 	min-height: 250px;
 }
 
+#carouselButton {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+}
+
 /* Content */
 .row-content {
 	margin: 0 auto;
