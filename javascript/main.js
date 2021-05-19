@@ -11,6 +11,7 @@ $(document).ready(function () {
         else if ($("#carouselButton").children("span").hasClass("fa-play")) {
             $("#homeCarousel").carousel("cycle");
             $("#carouselButton").children("span").toggleClass("fa-play fa-pause");
+
         }
     })
 });

@@ -1,0 +1,78 @@
+// Colors Variables
+@lt-gray: #ddd;
+@background-dark: #414141;
+@background-light: #707070;
+@background-pale: #c0c0c0;
+
+// Height Variables
+@carousel-item-height: 250px;
+
+.zero-margin (@pad-up-dn, @pad-left-right) {
+	margin: 0 auto;
+	padding: @pad-up-dn @pad-left-right;
+}
+
+body {
+	padding: 50px 0 0 0;
+	z-index: 0;
+}
+
+.navbar-dark {
+	background-color: @background-dark;
+}
+
+.row-header {
+	.zero-margin(0, 0);
+}
+
+.row-content {
+	.zero-margin(50px, 0);
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.jumbotron {
+	.zero-margin(70px, 30px);
+	background-color: @background-light;
+	color: floralwhite;
+}
+
+.carousel {
+	background-color: @background-dark;
+
+	.carousel-item {
+		height: @carousel-item-height;
+
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			min-width: 250px;
+		}
+	}
+}
+
+#carouselButton {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.tab-content {
+	border-bottom: 1px solid @lt-gray;
+	border-left: 1px solid @lt-gray;
+	border-right: 1px solid @lt-gray;
+	padding: 10px;
+}
+
+.footer {
+	background-color: @background-pale;
+	.zero-margin(20px, 0);
+}
+
+.address {
+	font-size: 80%;
+	margin: 0;
+	color: #0f0f0f;
+}
