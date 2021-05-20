@@ -14,4 +14,13 @@ $(document).ready(function () {
 
         }
     })
+
+    $("#loginButton").click(function () {
+        $('#loginModal').modal('toggle');
+    })
+
+    $("#reserveTableBtn").click(function () {
+        $('#reservationModal').modal('toggle');
+    })
 });
+

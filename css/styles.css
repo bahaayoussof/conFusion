@@ -4,6 +4,8 @@ body {
 
 .navbar-dark {
   background-color: #414141; }
+  .navbar-dark #loginButton {
+    cursor: pointer; }
 
 .row-header {
   margin: 0 auto;
@@ -36,6 +38,16 @@ body {
   right: 0;
   position: absolute;
   z-index: 1; }
+
+.modal .modal-header {
+  background-color: #414141;
+  color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #c0c0c0; }
+
+.modal button {
+  color: floralwhite; }
 
 .tab-content {
   border-left: 1px solid #ddd;
